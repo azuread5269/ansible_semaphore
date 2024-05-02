@@ -6,4 +6,4 @@
   tasks:
     - name: test connection
       ansible.windows.win_shell: |
-      get-childitem
+           get-childitem
