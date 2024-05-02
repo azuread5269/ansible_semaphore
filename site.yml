@@ -1,7 +1,7 @@
 ---
 - name: win_ping demo
   hosts: ALL
-  become: true
+  become: false
   gather_facts: false
   tasks:
     - name: test connection
