@@ -1,9 +1,8 @@
 ---
-- name: win_ping module demo
+- name: win_ping demo
   hosts: ALL
   become: false
   gather_facts: false
-  tasks: 
+  tasks:
     - name: test connection
       ansible.windows.win_ping:
-      
